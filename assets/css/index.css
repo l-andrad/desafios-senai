@@ -12,19 +12,19 @@ section {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(LeagueSpartan-Bold.otf);
+    src: url(/assets/fonts/LeagueSpartan-Bold.otf);
     font-weight: bold;
 }
 
 @font-face {
     font-family: mySecondFontRegular;
-    src: url(GlacialIndifference-Regular.otf);
+    src: url(/assets/fonts/GlacialIndifference-Regular.otf);
     font-weight: bold;
 }
 
 @font-face {
     font-family: mySecondFontBold;
-    src: url(GlacialIndifference-Bold.otf);
+    src: url(/assets/fonts/GlacialIndifference-Bold.otf);
     font-weight: bold;
 }
 
@@ -77,12 +77,13 @@ section {
     border-style: groove ;
     border-color: black;
     outline-color: #c12c2e;
+    padding-left: 10px;
 }
 
 .form-login input::placeholder {
     font-family: 'mySecondFontRegular';
     color: black;
-    padding-left: 5px;
+    
 }
 
 .form-login .button-form {
@@ -106,4 +107,9 @@ section {
 .button-form .btn-dark:hover {
     background-color: #c12c2e;
     border-color: #c12c2e;
+}
+
+.button-form .btn-dark a {
+    text-decoration: none;
+    color: white;
 }
